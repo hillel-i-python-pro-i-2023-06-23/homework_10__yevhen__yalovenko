@@ -11,8 +11,8 @@ class User(NamedTuple):
 
 def generate_user() -> User:
     return User(
-        username=faker.first_name(),
-        email=faker.email(),
+        username=faker.unique.first_name(),
+        email=faker.unique.company_email(),
     )
 
 
