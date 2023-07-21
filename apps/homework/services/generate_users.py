@@ -1,7 +1,7 @@
 from typing import NamedTuple
 from collections.abc import Iterator
 
-from apps.homework.faker import faker
+from apps.homework.services.faker import faker
 
 
 class User(NamedTuple):
