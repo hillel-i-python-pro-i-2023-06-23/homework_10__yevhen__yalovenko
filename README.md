@@ -1,8 +1,7 @@
-# Djengo application
+# Django application
 
 ---
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/shared__django__example_2023_06_23/actions/workflows/main-workflow.yml/badge.svg)
-
+[![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_10__yevhen__yalovenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_10__yevhen__yalovenko/actions/workflows/main-workflow.yml)
 ## 🏠 Homework
 
 Homework-10__Yevhen__Yalovenko.

@@ -1,7 +1,7 @@
 from typing import NamedTuple
 from collections.abc import Iterator
 
-from apps.homework.faker import faker
+from apps.homework.services.faker import faker
 
 
 class User(NamedTuple):
@@ -11,8 +11,8 @@ class User(NamedTuple):
 
 def generate_user() -> User:
     return User(
-        username=faker.first_name(),
-        email=faker.email(),
+        username=faker.unique.first_name(),
+        email=faker.unique.company_email(),
     )
 
 
